@@ -10,6 +10,6 @@ input.addEventListener('keyup', function onEvent(e) {
 function go() {
   var url = document.getElementById("input").value
   if (url !== "") {
-  window.location.href = "/schoolheaven/gateway?url=" + url
+  window.location.href = "/carrot/gateway?url=" + url
   }
 }

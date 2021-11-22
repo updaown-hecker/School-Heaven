@@ -4,10 +4,10 @@ const express = require('express')
 const app = express()
 
 const proxy = new Corrosion({
-    prefix: "/schoolheaven/",
-    codec: "xor",
-    title: "Fallen Angel",
-    forceHttps: true
+  prefix: "/carrot/",
+  codec: "xor",
+  title: "Fallen Angel",
+  forceHttps: true
 })
 
 app.use('/', express.static(__dirname + '/public'));
@@ -16,8 +16,8 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + "/public/index.html")
 });
 
-app.use('/', function (req, res) {
-    proxy.request(req,res)
+app.use('/', function(req, res) {
+  proxy.request(req, res)
 });
 
 // If you want an error page
