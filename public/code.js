@@ -20,3 +20,11 @@ function setdefault() {
   settitle("School Heaven")
 }
 
+function popUp() {
+   
+  if (confirm("By using School Heaven you agree to our Terms Of Service. Press 'ok' if you agree to the Terms, Press 'cancel' to read the Terms of Service.")) {
+    txt = "You pressed OK!";
+  } else {
+window.location.replace("https://www.schooltime.epizy.com/tos.html");
+  }
+}
