@@ -8,12 +8,23 @@ html {
 }
 
 footer {
+  float: bottom;
+  bottom: 0%;
+  overflow: hidden;
   margin: 0px;
-  border: 2px solid white;
+  border: 1px solid white;
   text-align: center;
   padding: 3px;
   background-color: black;
   color: white;
+}
+
+footer p{
+  float: left;
+}
+
+footer img{
+  float: right;
 }
 
 h1 {
@@ -233,7 +244,8 @@ transition: .8s;
   float: none;
   color: white;
   padding: 12px 16px;
-  display: block;
+ 
+  
   text-align: left;
   transition: .8s;
 }

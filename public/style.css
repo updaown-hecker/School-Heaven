@@ -367,9 +367,9 @@ transition: background-color .8s;
   transition: block .8s;
 }
 
-footer {
-  text-align: center;
-  padding: 3px;
-  background-color: black;
-  color: white;
+.logo {
+  border: 1px solid black;
+  border-radius: 50%;
+  filter: invert(100%);
 }
+

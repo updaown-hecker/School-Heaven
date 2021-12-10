@@ -1,10 +1,8 @@
 var title = localStorage.getItem("title")
 
+
 if (localStorage.hasOwnProperty("title")) {
     document.title = title
-}
-
-
 
 function settitle(title) {
   if (title !== "") {
@@ -19,12 +17,14 @@ function settitle(title) {
 function setdefault() {
   settitle("School Heaven")
 }
-
+function animateDropDownMore(){
+  $()
+}
 function popUp() {
-   
-  if (confirm("By using School Heaven you agree to our Terms Of Service. Press 'ok' if you agree to the Terms, Press 'cancel' to read the Terms of Service.")) {
+  if(!localStorage.lol && confirm("By using School Heaven you agree to our Terms Of Service. Press 'ok' if you agree to the Terms, Press 'cancel' to read the Terms of Service.")){
     txt = "You pressed OK!";
   } else {
-window.location.replace("https://www.schooltime.epizy.com/tos.html");
+      
   }
+  localStorage.lol=true
 }

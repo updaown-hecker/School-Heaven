@@ -178,3 +178,9 @@ transition: background-color .8s;
   display: block;
   transition: block .8s;
 }
+
+.logo {
+  border: 1px solid black;
+  border-radius: 50%;
+  filter: invert(100%);
+}
