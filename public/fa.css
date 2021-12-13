@@ -184,3 +184,23 @@ transition: background-color .8s;
   border-radius: 50%;
   filter: invert(100%);
 }
+
+  footer {
+  float: bottom;
+  bottom: 0%;
+  overflow: hidden;
+  margin: 0px;
+  border: 2px solid white;
+  text-align: center;
+  padding: 3px;
+  background-color: transparent;
+  color: white;
+}
+
+footer p{
+  float: left;
+}
+
+footer img{
+  float: right;
+}
