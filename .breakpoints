@@ -1,0 +1,20 @@
+{
+  "files": {
+    "public/index.html": [
+      {
+        "id": "b2d8dddb-723e-4266-a6ae-a17cc386450b",
+        "line": 40,
+        "version": 711,
+        "index": 1343
+      }
+    ],
+    "public/test.html": [
+      {
+        "id": "6bd052e7-eca7-441a-b313-2409e9fa2eae",
+        "line": 172,
+        "version": 500,
+        "index": 6592
+      }
+    ]
+  }
+}

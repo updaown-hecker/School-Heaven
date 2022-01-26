@@ -1005,7 +1005,7 @@ q:after
 	position:absolute;
 	left:0px;
 	top:0px;
-	background:url(cookie_clicker/img/money.png);
+	background:url(img/money.png);
 	width:16px;
 	height:16px;
 }
@@ -1070,7 +1070,7 @@ q:after
 	width:32px;
 	height:32px;
 	position:absolute;
-	background:url(cookie_clicker/img/cursor.png);
+	background:url(img/cursor.png);
 }
 .cookieParticle
 {
