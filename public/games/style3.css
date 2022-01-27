@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 html {
   text-align: center;
  background:url("background.gif");
@@ -30,7 +32,7 @@ footer img{
 
 h1 {
   outline: 5px dotted white;
-  font-family: 'Righteous', cursive;
+   font-family: 'Righteous', cursive;
   font-size:30px;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
